@@ -17,6 +17,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>17</maven.compiler.release>
   </properties>
   <build>
     <pluginManagement>
@@ -57,7 +58,7 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[7)</version>
+                  <version>[3.5.4,)</version>
                 </requireMavenVersion>
               </rules>
             </configuration>
